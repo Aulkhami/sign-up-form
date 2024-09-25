@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <div class="brand">
+      <div class="logo">
+        <img
+          src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+          alt="The Odin Project logo."
+          width="auto"
+          height="64px"
+        />
+        <h1 class="title">ODIN</h1>
+      </div>
+
+      <div class="credit">
+        Photo by
+        <a
+          href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+          >Halie West</a
+        >
+        on
+        <a
+          href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+          >Unsplash</a
+        >
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="hook">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. <br />
+          Sign up <em>now</em> to get started.
+        </p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
+
+      <form action="/api/auth" method="post">
+        <section>
+          <h2>Let's do this!</h2>
+
+          <div class="row">
+            <p>
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" name="first-name" id="first-name" />
+            </p>
+            <p>
+              <label for="second-name">SECOND NAME</label>
+              <input type="text" name="second-name" id="second-name" />
+            </p>
+          </div>
+          <div class="row">
+            <p>
+              <label for="email">EMAIL</label>
+              <input type="email" name="email" id="email" />
+            </p>
+            <p>
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="tel" name="phone-number" id="phone-number" />
+            </p>
+          </div>
+          <div class="row">
+            <p>
+              <label for="password">PASSWORD</label>
+              <input type="password" name="password" id="password" />
+            </p>
+            <p>
+              <label for="password-confirm">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                name="password-confirm"
+                id="password-confirm"
+              />
+            </p>
+          </div>
+        </section>
+
+        <button type="submit">Create Account</button>
+      </form>
+
+      <p class="login">Already have an account? <a href="/login">Log in</a></p>
+    </div>
+  </body>
+</html>
