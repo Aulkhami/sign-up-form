@@ -220,5 +220,8 @@ form button[type="submit"]:hover {
 }
 
 .login a {
-  color: #0c0a09;
+  color: #596D48;
+  text-decoration: none;
+
+  font-weight: 600;
 }
