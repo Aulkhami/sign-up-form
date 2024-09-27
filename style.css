@@ -129,7 +129,7 @@ h1,h2 {
 
 form section {
   background-color: #fff;
-  padding: 20px 32px;
+  padding: 20px 36px;
 }
 
 form .row {
@@ -153,7 +153,7 @@ button {
 label {
   display: block;
 
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 600;
 
   margin-bottom: 0.5rem;
@@ -163,7 +163,7 @@ form section input {
   height: 1.75rem;
   width: clamp(128px, 20vw, 256px);
 
-  border-color: #0c0a0930;
+  border-color: #E5E7EB;
   border-style: solid;
   border-width: 1.5px;
   border-radius: 5px;
@@ -186,4 +186,37 @@ input[type="tel"]:invalid,
 input[type="password"]:invalid
 {
   border-color: #dc2626;
+}
+
+form button[type="submit"] {
+  background-color: #596D48;
+  color: #fafaf9;
+
+  margin-left: 36px;
+  margin-top: 16px;
+  padding: 16px 48px;
+  width: fit-content;
+
+  border: none;
+  border-radius: 5px;
+
+  font-size: 1.1rem;
+  font-weight: 600;
+
+  box-shadow: 0px 0px 5px #0c0a0990;
+
+  transition: all 0.2s ease-out;
+}
+
+form button[type="submit"]:hover {
+  box-shadow: 0px 0px 10px #0c0a09AA;
+  transform: scale(1.05);
+}
+
+.login {
+  margin-left: 36px;
+}
+
+.login a {
+  color: #0c0a09;
 }
